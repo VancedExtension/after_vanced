@@ -88,9 +88,9 @@
     ],
     "changelog": "This is an unofficial version and is in beta! \n\n- Bumped base \n- Fix RYD (it now works even without 'Old Layout' setting turned on) \n- Restore 'old style video quality settings' \n- Restore all vanced settings that have been deleted \n- Restore all preset settings \n- Added setting to hide 'Emergency Box', 'Info Panel', 'Latest Posts', 'Medical Panel', 'Paid Content', 'Suggestion' \n- rewritten vanced-integraions \n- Update some drawable resources \n- Russian translation update \n- (ROOT version) Splash Screen is restored \n- (NON-ROOT version) Splash Icon is restored \n\nKNOWN ISSUES: \n- 'old style video quality settings' does not work \n- To create a button at the bottom of the player, you must turn on 'Old Layout' \n- To fix RYD, I refer to revanced-integrations, so it has the same problem as ReVanced's RYD \n- Ads still appear to appear on some devices \n- HDR Brightness settings does not work on some devices \n- For NON-ROOT version, microg must be installed"
     },	"music": {
-		"version": "5.17.51(BETA)",
-		"versionCode": 51751200,
-		"changelog": "- Bumped base \n- Fix installation errors for other architectures except arm64-v8a"
+		"version": "5.17.51(STABLE)",
+		"versionCode": 51751270,
+		"changelog": "- Bumped base \n- Fix installation errors for other architectures except arm64-v8a \n- Added Cast button toggle and Codecs Unlock toggle in Vanced Settings"
 	},
 	"microg": {
 		"version": "0.2.24.220220",
