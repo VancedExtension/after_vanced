@@ -7,8 +7,8 @@
 		"changelog": "- New work from the last commit in TeamVanced/VancedManager \n- Made all changelogs visible in the Commit History \n- App signature changed"
 	},
   	"vanced": {
-    "version": "17.28.34(RC)",
-    "versionCode": 1530516928,
+    "version": "17.32.38",
+    "versionCode": 1531049408,
     "themes": ["dark", "black"],
     "langs": [
       "af",
@@ -86,16 +86,16 @@
       "zh",
       "zu"
     ],
-    "changelog": "This is an unofficial version and is in beta! \n\n- Bumped base \n- Fix RYD (it now works even without 'Old Layout' setting turned on) \n- Restore 'old style video quality settings' \n- Restore all vanced settings that have been deleted \n- Restore all preset settings \n- Added setting to hide 'Emergency Box', 'Info Panel', 'Latest Posts', 'Medical Panel', 'Paid Content', 'Suggestion' \n- rewritten vanced-integraions \n- Update some drawable resources \n- Russian translation update \n- (ROOT version) Splash Screen is restored \n- (NON-ROOT version) Splash Icon is restored \n\nKNOWN ISSUES: \n- 'old style video quality settings' does not work \n- To create a button at the bottom of the player, you must turn on 'Old Layout' \n- To fix RYD, I refer to revanced-integrations, so it has the same problem as ReVanced's RYD \n- Ads still appear to appear on some devices \n- HDR Brightness settings does not work on some devices \n- For NON-ROOT version, microg must be installed"
+    "changelog": "Final Build \n\n- Bumped base \n- Bugfix: some 'Ad gettings' toggles do not work as intended \n- Bugfix: 'voting' button and 'new segment adding' button overlap with other layouts \n- Bugfix: Buttons inside the player (Copy, AutoRepeat, Download) disappear at different speeds \n- Added settings: Disable Auto captions, Suggested Actions, Premium Header, Change Downloader Package Name, Button Container (Experimental) \n- Fixed incorrect description: 'Auto Repeat Button (In Player)' > 'Auto Play Button (In Player)', 'Dark Overlay on pause' > 'Transparent Overlay on pause' \n- Settings that cannot be used unless 'Old Layout' is enabled are now disabled according to the 'Old Layout' setting value \n- Toast notification is now displayed when MicroG is not installed (NON-ROOT only) \n- Now supports Splash Animation in Vanced Icon version \n- Vanced Icon is now applied to ROOT version as well \n- Minor changes in settings interface \n- Some setting items moved to Vanced Extended setting \n- Display the Vanced Extended guidance dialog when the app is first launched \n- Removed translucent circles on player controls background \n- Updated some drawable resources \n\nKNOWN ISSUES: \n- Ads still showing on some devices \n- RYD not working on new interface\n- HDR Brightness setting not working on some devices"
     },	"music": {
 		"version": "5.17.51(STABLE)",
-		"versionCode": 51751240,
+		"versionCode": 51751270,
 		"changelog": "- Bumped base \n- Fix installation errors for other architectures except arm64-v8a \n- Added Cast button toggle and Codecs Unlock toggle in Vanced Settings"
 	},
 	"microg": {
-		"version": "0.2.24.220220",
-		"versionCode": 220220001,
-		"url": "https://github.com/YTVanced/VancedMicroG/releases/latest/download/microg.apk",
-		"changelog": "- upstream changes\n- added translations"
+		"version": "0.2.25.223212",
+		"versionCode": 223212001,
+		"url": "https://github.com/inotia00/VancedMicroG/releases/latest/download/microg.apk",
+		"changelog": "- Updated libs and upstream to 2022/08/22\n- Removed some unused resources\n- App signature changed"
 	}
 }
